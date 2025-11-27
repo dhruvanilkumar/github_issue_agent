@@ -1,0 +1,109 @@
+# ============================================
+# PYTHON & VIRTUAL ENVIRONMENT
+# ============================================
+venv/
+env/
+ENV/
+.venv
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ============================================
+# ENVIRONMENT & SECRETS (NEVER COMMIT!)
+# ============================================
+.env
+.env.local
+.env.*.local
+.env.*
+*.pem
+*.key
+*.txt
+
+# ============================================
+# IDE & EDITOR FILES
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# ============================================
+# STREAMLIT CACHE & CONFIG
+# ============================================
+.streamlit/
+.streamlit/cache/
+.streamlit/secrets.toml
+
+# ============================================
+# OS-SPECIFIC FILES
+# ============================================
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+desktop.ini
+
+# ============================================
+# LOGS & TEMPORARY FILES
+# ============================================
+*.log
+*.pid
+*.lock
+*.tmp
+*.temp
+
+# ============================================
+# TESTING & COVERAGE
+# ============================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# ============================================
+# PACKAGE & BUILD FILES
+# ============================================
+*.whl
+*.tar.gz
+*.zip
+*.egg
+
+# ============================================
+# NODE MODULES (if using frontend framework)
+# ============================================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ============================================
+# DATABASE & DATA FILES (if applicable)
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+data/
+*.csv
+
+# ============================================
+# MACOS
+# ============================================
+.DS_Store
+._*
+
+# ============================================
+# WINDOWS
+# ============================================
+Thumbs.db
+$RECYCLE.BIN/
